@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500111511D3000850049411A /* SwissRailwayClockDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500111501D3000850049411A /* SwissRailwayClockDark.swift */; };
+		501C52AF1D33F112002F845D /* BraunBN0032Dark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501C52AE1D33F112002F845D /* BraunBN0032Dark.swift */; };
+		501DF9E01D54B1AD003A6DC9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501DF9DF1D54B1AD003A6DC9 /* MainViewController.swift */; };
+		501DF9E11D54BBCE003A6DC9 /* PunktAC01AlarmClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B2FA61D52551E002218B6 /* PunktAC01AlarmClock.swift */; };
+		504BEDC11D4E539700437ED2 /* KundoQuartzRepetitionWestGermanyWecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC01D4E539700437ED2 /* KundoQuartzRepetitionWestGermanyWecker.swift */; };
+		504BEDC31D4E5AB100437ED2 /* SeikoStandardKX308K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC21D4E5AB100437ED2 /* SeikoStandardKX308K.swift */; };
+		504BEDC51D4E70DD00437ED2 /* SeikoStandardKX308KDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC41D4E70DD00437ED2 /* SeikoStandardKX308KDark.swift */; };
+		504BEDC71D4E727400437ED2 /* SeikoStandardKX308W.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC61D4E727400437ED2 /* SeikoStandardKX308W.swift */; };
+		504BEDC91D4E72AE00437ED2 /* SeikoStandardKX308WDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC81D4E72AE00437ED2 /* SeikoStandardKX308WDark.swift */; };
+		504BEDCB1D4E74E700437ED2 /* FiveOClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDCA1D4E74E700437ED2 /* FiveOClock.swift */; };
+		5055063B1D2FD38B00C647A3 /* SwissRailwayClockLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055063A1D2FD38B00C647A3 /* SwissRailwayClockLight.swift */; };
+		5055063D1D2FD5AA00C647A3 /* ClockSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055063C1D2FD5AA00C647A3 /* ClockSkin.swift */; };
+		5070EF431BC1719200BB18C5 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070EF421BC1719200BB18C5 /* Date.swift */; };
+		5077845B1D34493300A7A6B5 /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 507784591D34493300A7A6B5 /* thumbnail.png */; };
+		5077845C1D34493300A7A6B5 /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5077845A1D34493300A7A6B5 /* thumbnail@2x.png */; };
+		507B2FA71D52551E002218B6 /* PunktAC01AlarmClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507B2FA61D52551E002218B6 /* PunktAC01AlarmClock.swift */; };
+		50D1BF881BC1388A0023EFF5 /* SimpleClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1BF871BC1388A0023EFF5 /* SimpleClock.swift */; };
+		50DB822F1D300300005A4E5D /* AscotClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DB822E1D300300005A4E5D /* AscotClock.swift */; };
+		50DB82311D3004F2005A4E5D /* TimeSaverClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DB82301D3004F2005A4E5D /* TimeSaverClock.swift */; };
+		50EDE28C1D50E2B60019277B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EDE28B1D50E2B60019277B /* AppDelegate.swift */; };
+		50EDE2901D50E2B60019277B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EDE28F1D50E2B60019277B /* Assets.xcassets */; };
+		50EDE2931D50E2B60019277B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EDE2911D50E2B60019277B /* Main.storyboard */; };
+		50EDE2981D50E2E70019277B /* AscotClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DB822E1D300300005A4E5D /* AscotClock.swift */; };
+		50EDE2991D50E2EA0019277B /* SwissRailwayClockDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500111501D3000850049411A /* SwissRailwayClockDark.swift */; };
+		50EDE29A1D50E2EE0019277B /* SwissRailwayClockLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055063A1D2FD38B00C647A3 /* SwissRailwayClockLight.swift */; };
+		50EDE29B1D50E2F10019277B /* TimeSaverClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DB82301D3004F2005A4E5D /* TimeSaverClock.swift */; };
+		50EDE29C1D50E2F50019277B /* BraunBN0032Dark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501C52AE1D33F112002F845D /* BraunBN0032Dark.swift */; };
+		50EDE29D1D50E2F80019277B /* KundoQuartzRepetitionWestGermanyWecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC01D4E539700437ED2 /* KundoQuartzRepetitionWestGermanyWecker.swift */; };
+		50EDE29E1D50E2FC0019277B /* SeikoStandardKX308K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC21D4E5AB100437ED2 /* SeikoStandardKX308K.swift */; };
+		50EDE29F1D50E3010019277B /* SeikoStandardKX308KDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC41D4E70DD00437ED2 /* SeikoStandardKX308KDark.swift */; };
+		50EDE2A01D50E3050019277B /* SeikoStandardKX308W.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC61D4E727400437ED2 /* SeikoStandardKX308W.swift */; };
+		50EDE2A11D50E3080019277B /* SeikoStandardKX308WDark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDC81D4E72AE00437ED2 /* SeikoStandardKX308WDark.swift */; };
+		50EDE2A21D50E30C0019277B /* FiveOClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504BEDCA1D4E74E700437ED2 /* FiveOClock.swift */; };
+		50EDE2A31D50E30F0019277B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5070EF421BC1719200BB18C5 /* Date.swift */; };
+		50EDE2A41D50E3130019277B /* SimpleClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1BF871BC1388A0023EFF5 /* SimpleClock.swift */; };
+		50EDE2A51D50E3170019277B /* ClockSkin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5055063C1D2FD5AA00C647A3 /* ClockSkin.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		500111501D3000850049411A /* SwissRailwayClockDark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwissRailwayClockDark.swift; sourceTree = "<group>"; };
+		501C52AE1D33F112002F845D /* BraunBN0032Dark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BraunBN0032Dark.swift; sourceTree = "<group>"; };
+		501DF9DF1D54B1AD003A6DC9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		504BEDC01D4E539700437ED2 /* KundoQuartzRepetitionWestGermanyWecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KundoQuartzRepetitionWestGermanyWecker.swift; sourceTree = "<group>"; };
+		504BEDC21D4E5AB100437ED2 /* SeikoStandardKX308K.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeikoStandardKX308K.swift; sourceTree = "<group>"; };
+		504BEDC41D4E70DD00437ED2 /* SeikoStandardKX308KDark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeikoStandardKX308KDark.swift; sourceTree = "<group>"; };
+		504BEDC61D4E727400437ED2 /* SeikoStandardKX308W.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeikoStandardKX308W.swift; sourceTree = "<group>"; };
+		504BEDC81D4E72AE00437ED2 /* SeikoStandardKX308WDark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeikoStandardKX308WDark.swift; sourceTree = "<group>"; };
+		504BEDCA1D4E74E700437ED2 /* FiveOClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveOClock.swift; sourceTree = "<group>"; };
+		5055063A1D2FD38B00C647A3 /* SwissRailwayClockLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwissRailwayClockLight.swift; sourceTree = "<group>"; };
+		5055063C1D2FD5AA00C647A3 /* ClockSkin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockSkin.swift; sourceTree = "<group>"; };
+		5070EF421BC1719200BB18C5 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		507784591D34493300A7A6B5 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		5077845A1D34493300A7A6B5 /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		507B2FA61D52551E002218B6 /* PunktAC01AlarmClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunktAC01AlarmClock.swift; sourceTree = "<group>"; };
+		50D1BF7A1BC1385E0023EFF5 /* SimpleClock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleClock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D1BF811BC1385E0023EFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D1BF871BC1388A0023EFF5 /* SimpleClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleClock.swift; sourceTree = "<group>"; };
+		50DB822E1D300300005A4E5D /* AscotClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AscotClock.swift; sourceTree = "<group>"; };
+		50DB82301D3004F2005A4E5D /* TimeSaverClock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSaverClock.swift; sourceTree = "<group>"; };
+		50EDE2891D50E2B60019277B /* SimpleClockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleClockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EDE28B1D50E2B60019277B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50EDE28F1D50E2B60019277B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EDE2921D50E2B60019277B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50EDE2941D50E2B60019277B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D1BF761BC1385E0023EFF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EDE2861D50E2B60019277B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5004A3BF1D3518EE004C8020 /* Skins */ = {
+			isa = PBXGroup;
+			children = (
+				50DB822E1D300300005A4E5D /* AscotClock.swift */,
+				500111501D3000850049411A /* SwissRailwayClockDark.swift */,
+				5055063A1D2FD38B00C647A3 /* SwissRailwayClockLight.swift */,
+				50DB82301D3004F2005A4E5D /* TimeSaverClock.swift */,
+				501C52AE1D33F112002F845D /* BraunBN0032Dark.swift */,
+				504BEDC01D4E539700437ED2 /* KundoQuartzRepetitionWestGermanyWecker.swift */,
+				504BEDC21D4E5AB100437ED2 /* SeikoStandardKX308K.swift */,
+				504BEDC41D4E70DD00437ED2 /* SeikoStandardKX308KDark.swift */,
+				504BEDC61D4E727400437ED2 /* SeikoStandardKX308W.swift */,
+				504BEDC81D4E72AE00437ED2 /* SeikoStandardKX308WDark.swift */,
+				504BEDCA1D4E74E700437ED2 /* FiveOClock.swift */,
+				507B2FA61D52551E002218B6 /* PunktAC01AlarmClock.swift */,
+			);
+			path = Skins;
+			sourceTree = "<group>";
+		};
+		507784501D3448D700A7A6B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				507784591D34493300A7A6B5 /* thumbnail.png */,
+				5077845A1D34493300A7A6B5 /* thumbnail@2x.png */,
+				50D1BF811BC1385E0023EFF5 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50D1BF701BC1385E0023EFF5 = {
+			isa = PBXGroup;
+			children = (
+				50D1BF7C1BC1385E0023EFF5 /* SimpleClock */,
+				50EDE28A1D50E2B60019277B /* SimpleClockDemo */,
+				50D1BF7B1BC1385E0023EFF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D1BF7B1BC1385E0023EFF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D1BF7A1BC1385E0023EFF5 /* SimpleClock.saver */,
+				50EDE2891D50E2B60019277B /* SimpleClockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D1BF7C1BC1385E0023EFF5 /* SimpleClock */ = {
+			isa = PBXGroup;
+			children = (
+				507784501D3448D700A7A6B5 /* Resources */,
+				5004A3BF1D3518EE004C8020 /* Skins */,
+				5070EF421BC1719200BB18C5 /* Date.swift */,
+				50D1BF871BC1388A0023EFF5 /* SimpleClock.swift */,
+				5055063C1D2FD5AA00C647A3 /* ClockSkin.swift */,
+			);
+			path = SimpleClock;
+			sourceTree = "<group>";
+		};
+		50EDE28A1D50E2B60019277B /* SimpleClockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50EDE28B1D50E2B60019277B /* AppDelegate.swift */,
+				50EDE28F1D50E2B60019277B /* Assets.xcassets */,
+				50EDE2911D50E2B60019277B /* Main.storyboard */,
+				50EDE2941D50E2B60019277B /* Info.plist */,
+				501DF9DF1D54B1AD003A6DC9 /* MainViewController.swift */,
+			);
+			path = SimpleClockDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50D1BF771BC1385E0023EFF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50D1BF791BC1385E0023EFF5 /* SimpleClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D1BF841BC1385E0023EFF5 /* Build configuration list for PBXNativeTarget "SimpleClock" */;
+			buildPhases = (
+				50D1BF751BC1385E0023EFF5 /* Sources */,
+				50D1BF761BC1385E0023EFF5 /* Frameworks */,
+				50D1BF771BC1385E0023EFF5 /* Headers */,
+				50D1BF781BC1385E0023EFF5 /* Resources */,
+				509D84E91D32E15E00E232C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleClock;
+			productName = SimpleClock;
+			productReference = 50D1BF7A1BC1385E0023EFF5 /* SimpleClock.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+		50EDE2881D50E2B60019277B /* SimpleClockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EDE2951D50E2B60019277B /* Build configuration list for PBXNativeTarget "SimpleClockDemo" */;
+			buildPhases = (
+				50EDE2851D50E2B60019277B /* Sources */,
+				50EDE2861D50E2B60019277B /* Frameworks */,
+				50EDE2871D50E2B60019277B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleClockDemo;
+			productName = SimpleClockDemo;
+			productReference = 50EDE2891D50E2B60019277B /* SimpleClockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D1BF711BC1385E0023EFF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Pascal Wagler";
+				TargetAttributes = {
+					50D1BF791BC1385E0023EFF5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 0800;
+					};
+					50EDE2881D50E2B60019277B = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 50D1BF741BC1385E0023EFF5 /* Build configuration list for PBXProject "SimpleClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D1BF701BC1385E0023EFF5;
+			productRefGroup = 50D1BF7B1BC1385E0023EFF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D1BF791BC1385E0023EFF5 /* SimpleClock */,
+				50EDE2881D50E2B60019277B /* SimpleClockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D1BF781BC1385E0023EFF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5077845B1D34493300A7A6B5 /* thumbnail.png in Resources */,
+				5077845C1D34493300A7A6B5 /* thumbnail@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EDE2871D50E2B60019277B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EDE2901D50E2B60019277B /* Assets.xcassets in Resources */,
+				50EDE2931D50E2B60019277B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		509D84E91D32E15E00E232C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D1BF751BC1385E0023EFF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D1BF881BC1388A0023EFF5 /* SimpleClock.swift in Sources */,
+				504BEDC91D4E72AE00437ED2 /* SeikoStandardKX308WDark.swift in Sources */,
+				504BEDC51D4E70DD00437ED2 /* SeikoStandardKX308KDark.swift in Sources */,
+				5070EF431BC1719200BB18C5 /* Date.swift in Sources */,
+				5055063B1D2FD38B00C647A3 /* SwissRailwayClockLight.swift in Sources */,
+				504BEDC71D4E727400437ED2 /* SeikoStandardKX308W.swift in Sources */,
+				507B2FA71D52551E002218B6 /* PunktAC01AlarmClock.swift in Sources */,
+				50DB82311D3004F2005A4E5D /* TimeSaverClock.swift in Sources */,
+				5055063D1D2FD5AA00C647A3 /* ClockSkin.swift in Sources */,
+				504BEDC11D4E539700437ED2 /* KundoQuartzRepetitionWestGermanyWecker.swift in Sources */,
+				500111511D3000850049411A /* SwissRailwayClockDark.swift in Sources */,
+				50DB822F1D300300005A4E5D /* AscotClock.swift in Sources */,
+				501C52AF1D33F112002F845D /* BraunBN0032Dark.swift in Sources */,
+				504BEDCB1D4E74E700437ED2 /* FiveOClock.swift in Sources */,
+				504BEDC31D4E5AB100437ED2 /* SeikoStandardKX308K.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EDE2851D50E2B60019277B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EDE2981D50E2E70019277B /* AscotClock.swift in Sources */,
+				50EDE29D1D50E2F80019277B /* KundoQuartzRepetitionWestGermanyWecker.swift in Sources */,
+				50EDE29B1D50E2F10019277B /* TimeSaverClock.swift in Sources */,
+				50EDE29C1D50E2F50019277B /* BraunBN0032Dark.swift in Sources */,
+				50EDE2A41D50E3130019277B /* SimpleClock.swift in Sources */,
+				50EDE2A01D50E3050019277B /* SeikoStandardKX308W.swift in Sources */,
+				50EDE29A1D50E2EE0019277B /* SwissRailwayClockLight.swift in Sources */,
+				501DF9E01D54B1AD003A6DC9 /* MainViewController.swift in Sources */,
+				50EDE2A11D50E3080019277B /* SeikoStandardKX308WDark.swift in Sources */,
+				50EDE29E1D50E2FC0019277B /* SeikoStandardKX308K.swift in Sources */,
+				501DF9E11D54BBCE003A6DC9 /* PunktAC01AlarmClock.swift in Sources */,
+				50EDE2A31D50E30F0019277B /* Date.swift in Sources */,
+				50EDE2A51D50E3170019277B /* ClockSkin.swift in Sources */,
+				50EDE2A21D50E30C0019277B /* FiveOClock.swift in Sources */,
+				50EDE2991D50E2EA0019277B /* SwissRailwayClockDark.swift in Sources */,
+				50EDE28C1D50E2B60019277B /* AppDelegate.swift in Sources */,
+				50EDE29F1D50E3010019277B /* SeikoStandardKX308KDark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50EDE2911D50E2B60019277B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50EDE2921D50E2B60019277B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D1BF821BC1385E0023EFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50D1BF831BC1385E0023EFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		50D1BF851BC1385E0023EFF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleClock/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.pascalwagler.SimpleClock;
+				PRODUCT_NAME = SimpleClock;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		50D1BF861BC1385E0023EFF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleClock/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.pascalwagler.SimpleClock;
+				PRODUCT_NAME = SimpleClock;
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		50EDE2961D50E2B60019277B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleClockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = de.pascalwagler.SimpleClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		50EDE2971D50E2B60019277B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleClockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = de.pascalwagler.SimpleClockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D1BF741BC1385E0023EFF5 /* Build configuration list for PBXProject "SimpleClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D1BF821BC1385E0023EFF5 /* Debug */,
+				50D1BF831BC1385E0023EFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D1BF841BC1385E0023EFF5 /* Build configuration list for PBXNativeTarget "SimpleClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D1BF851BC1385E0023EFF5 /* Debug */,
+				50D1BF861BC1385E0023EFF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EDE2951D50E2B60019277B /* Build configuration list for PBXNativeTarget "SimpleClockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EDE2961D50E2B60019277B /* Debug */,
+				50EDE2971D50E2B60019277B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D1BF711BC1385E0023EFF5 /* Project object */;
+}
