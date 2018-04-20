@@ -2,7 +2,7 @@
 
 # Simple Clock Screensaver
 
-A simple clock screensaver for macOS written in entirely in Swift. It has support for skins/themes (in source code only) and can be styled to match a wide variety of analogue wall clocks.
+A simple clock screensaver for macOS written entirely in Swift. It has support for skins/themes (in source code only) and can be styled to match a wide variety of analogue wall clocks.
 
 ## Skins
 
