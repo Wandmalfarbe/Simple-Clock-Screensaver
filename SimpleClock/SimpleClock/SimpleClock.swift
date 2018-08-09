@@ -16,11 +16,11 @@ class SimpleClock: ScreenSaverView {
 
 		context = NSGraphicsContext.current()!.cgContext
 
-		skin = SwissRailwayClockDark()
+		//skin = SwissRailwayClockDark()
 		//skin = SwissRailwayClockLight()
 		//skin = TimeSaverClock()
 		//skin = AscotClock()
-		//skin = BraunBN0032Dark()
+		skin = BraunBN0032Dark()
 		//skin = KundoQuartzRepetitionWestGermanyWecker()
 
 		//skin = SeikoStandardKX308K()

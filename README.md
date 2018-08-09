@@ -18,6 +18,12 @@ A simple clock screensaver for macOS written entirely in Swift. It has support f
 
 ![Swiss Railway Clock Light](images/SwissRailwayClockLight.png)
 
+## Installation
+
+- Download the [latest version](https://github.com/Wandmalfarbe/Simple-Clock-Screensaver/releases/latest) of the screensaver from the releases page.
+- Extract the ZIP file by double-clicking on it.
+- Install the screensaver by double-clicking on the file with the extension `.saver`.
+
 ## Credits
 
 - The screensaver uses a `Date` extension by Daniel Love.
