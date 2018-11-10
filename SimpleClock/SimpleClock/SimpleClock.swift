@@ -69,31 +69,37 @@ class SimpleClock: ScreenSaverView {
 		)
 
 		drawClockHand( // Hour
-			CGSize(width: getSize(skin.scaling.hourHandWidth),	height: getSize(skin.scaling.hourHandHeight)),
-			overhangSize: CGSize(width: getSize(skin.scaling.hourHandOverhangWidth), height: getSize(skin.scaling.hourHandOverhangHeight)),
-			color: skin.color.hourHand,
-			lineCap: (skin.lineCap.hourHand, skin.lineCap.hourHandOverhang),
-			progress: hours * 12,
-			total: 12
-		)
+			CGSize(width: getSize(skin.scaling.hourHandWidth),
+                height: getSize(skin.scaling.hourHandHeight)),
+			    overhangSize: CGSize(
+                    width: getSize(skin.scaling.hourHandOverhangWidth),
+                    height: getSize(skin.scaling.hourHandOverhangHeight)),
+			    color: skin.color.hourHand,
+			    lineCap: (skin.lineCap.hourHand, skin.lineCap.hourHandOverhang),
+			    progress: hours * 12,
+			    total: 12)
 
 		drawClockHand( // Minute
-			CGSize(width: getSize(skin.scaling.minuteHandWidth), height: getSize(skin.scaling.minuteHandHeight)),
-			overhangSize: CGSize(width: getSize(skin.scaling.minuteHandOverhangWidth), height: getSize(skin.scaling.minuteHandOverhangHeight)),
-			color: skin.color.minuteHand,
-			lineCap: (skin.lineCap.minuteHand, skin.lineCap.minuteHandOverhang),
-			progress: minutes * 60,
-			total: 60
-		)
+			CGSize(width: getSize(skin.scaling.minuteHandWidth),
+                height: getSize(skin.scaling.minuteHandHeight)),
+                overhangSize: CGSize(
+                    width: getSize(skin.scaling.minuteHandOverhangWidth),
+                    height: getSize(skin.scaling.minuteHandOverhangHeight)),
+			    color: skin.color.minuteHand,
+			    lineCap: (skin.lineCap.minuteHand, skin.lineCap.minuteHandOverhang),
+			    progress: minutes * 60,
+			    total: 60)
 
 		drawClockHand( // Second
-			CGSize(width: getSize(skin.scaling.secondHandWidth), height: getSize(skin.scaling.secondHandHeight)),
-			overhangSize: CGSize(width: getSize(skin.scaling.secondHandOverhangWidth), height: getSize(skin.scaling.secondHandOverhangHeight)),
-			color: skin.color.secondHand,
-			lineCap: (skin.lineCap.secondHand, skin.lineCap.secondHandOverhang),
-			progress: seconds * 60,
-			total: 60
-		)
+			CGSize(width: getSize(skin.scaling.secondHandWidth),
+                height: getSize(skin.scaling.secondHandHeight)),
+			    overhangSize: CGSize(
+                    width: getSize(skin.scaling.secondHandOverhangWidth),
+                    height: getSize(skin.scaling.secondHandOverhangHeight)),
+			    color: skin.color.secondHand,
+			    lineCap: (skin.lineCap.secondHand, skin.lineCap.secondHandOverhang),
+			    progress: seconds * 60,
+			    total: 60)
 
 		drawHandCircle()
 	}
@@ -156,15 +162,15 @@ class SimpleClock: ScreenSaverView {
 			}
 
 			if !isHiddenTick {
-				let x: CGFloat = center.x + (cos(angle) * tickRadius)
-				let y: CGFloat = center.y + (sin(angle) * tickRadius)
+				let startLineX: CGFloat = center.x + (cos(angle) * tickRadius)
+				let startLineY: CGFloat = center.y + (sin(angle) * tickRadius)
 
-				let x2: CGFloat = center.x + (cos(angle) * (tickRadius - tickHeight))
-				let y2: CGFloat = center.y + (sin(angle) * (tickRadius - tickHeight))
+				let endLineX: CGFloat = center.x + (cos(angle) * (tickRadius - tickHeight))
+				let endLineY: CGFloat = center.y + (sin(angle) * (tickRadius - tickHeight))
 
 				context.beginPath()
-				context.move(to: CGPoint(x: ceil(x), y: ceil(y)))
-				context.addLine(to: CGPoint(x: ceil(x2), y: ceil(y2)))
+				context.move(to: CGPoint(x: ceil(startLineX), y: ceil(startLineY)))
+				context.addLine(to: CGPoint(x: ceil(endLineX), y: ceil(endLineY)))
 				context.strokePath()
 			}
 
@@ -177,29 +183,31 @@ class SimpleClock: ScreenSaverView {
 		let center: CGPoint = CGPoint(x: clockRect.midX, y: clockRect.midY)
 
 		let angle: CGFloat = self.angleForTimeUnit(progress, total: total)
-		let x: CGFloat = center.x + (cos(angle) * size.height)
-		let y: CGFloat = center.y + (sin(angle) * size.height)
+		let handLineX: CGFloat = center.x + (cos(angle) * size.height)
+		let handLineY: CGFloat = center.y + (sin(angle) * size.height)
 
-		let x2: CGFloat = center.x + (-cos(angle) * overhangSize.height)
-		let y2: CGFloat = center.y + (-sin(angle) * overhangSize.height)
+		let overhangLineX: CGFloat = center.x + (-cos(angle) * overhangSize.height)
+		let overhangLineY: CGFloat = center.y + (-sin(angle) * overhangSize.height)
 
 		context.saveGState()
 
 		//CGContextSetShadowWithColor(context, CGSize(width: 0, height: 0), 1, skin.color.handShadow)
 		context.setStrokeColor(color)
 
+        // draw the hand
 		context.beginPath()
 		context.setLineCap(lineCap.0)
 		context.setLineWidth(ceil(size.width))
-		context.move(to: CGPoint(x: x, y: y))
+		context.move(to: CGPoint(x: handLineX, y: handLineY))
 		context.addLine(to: CGPoint(x: center.x, y: center.y))
 		context.strokePath()
 
+        // draw the overhang of the hand
 		context.beginPath()
 		context.setLineCap(lineCap.1)
 		context.setLineWidth(ceil(overhangSize.width))
 		context.move(to: CGPoint(x: center.x, y: center.y))
-		context.addLine(to: CGPoint(x: x2, y: y2))
+		context.addLine(to: CGPoint(x: overhangLineX, y: overhangLineY))
 		context.strokePath()
 
 		context.restoreGState()
