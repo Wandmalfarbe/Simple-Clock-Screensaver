@@ -23,6 +23,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 Pascal Wagler. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string>SimpleClock</string>
+	<string>SimpleClock.SimpleClock</string>
 </dict>
 </plist>

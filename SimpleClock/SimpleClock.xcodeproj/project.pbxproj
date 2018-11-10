@@ -223,7 +223,7 @@
 				TargetAttributes = {
 					50D1BF791BC1385E0023EFF5 = {
 						CreatedOnToolsVersion = 7.0.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 					};
 					50EDE2881D50E2B60019277B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -396,7 +396,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SimpleClock;
 				SDKROOT = macosx;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -441,8 +444,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleClock;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -458,7 +464,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = de.pascalwagler.SimpleClock;
 				PRODUCT_NAME = SimpleClock;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -474,7 +481,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.pascalwagler.SimpleClock;
 				PRODUCT_NAME = SimpleClock;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;

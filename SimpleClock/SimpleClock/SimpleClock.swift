@@ -14,7 +14,7 @@ class SimpleClock: ScreenSaverView {
 	override func draw(_ screenRect: NSRect) {
 		super.draw(screenRect)
 
-		context = NSGraphicsContext.current()!.cgContext
+		context = NSGraphicsContext.current!.cgContext
 
 		//skin = SwissRailwayClockDark()
 		//skin = SwissRailwayClockLight()
@@ -236,8 +236,8 @@ class SimpleClock: ScreenSaverView {
 
 	func angleForTimeUnit(_ time: CGFloat, total: Int) -> CGFloat {
 		let degreesPerTime = 360 / CGFloat(total)
-		let radians = (degreesPerTime * CGFloat(M_PI)) / 180
-		let angle = -(radians * CGFloat(time) - CGFloat(M_PI_2))
+		let radians = (degreesPerTime * CGFloat(Double.pi)) / 180
+		let angle = -(radians * CGFloat(time) - CGFloat(Double.pi/2.0))
 
 		return CGFloat(angle)
 	}
@@ -268,11 +268,11 @@ class SimpleClock: ScreenSaverView {
 		needsDisplay = true
 	}
 
-	override func hasConfigureSheet() -> Bool {
+	override var hasConfigureSheet: Bool {
 		return false
 	}
 
-	override func configureSheet() -> NSWindow? {
+	override var configureSheet: NSWindow? {
 		return nil
 	}
 }
