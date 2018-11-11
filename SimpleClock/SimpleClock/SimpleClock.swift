@@ -1,3 +1,11 @@
+//
+//  SimpleClock.swift
+//  Timesaver
+//
+//  Created by Pascal Wagler.
+//  Copyright (c) 2016 - 2018 Pascal Wagler. All rights reserved.
+//
+
 import Foundation
 import ScreenSaver
 

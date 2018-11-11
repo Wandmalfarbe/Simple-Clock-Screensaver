@@ -3,7 +3,7 @@
 //  SimpleClock
 //
 //  Created by Pascal Wagler on 08/07/16.
-//  Copyright © 2016 Pascal Wagler. All rights reserved.
+//  Copyright (c) 2016 - 2018 Pascal Wagler. All rights reserved.
 //
 
 import Foundation
