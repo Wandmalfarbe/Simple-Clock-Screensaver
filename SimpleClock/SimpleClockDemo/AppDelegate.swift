@@ -11,16 +11,16 @@ import ScreenSaver
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
-
-	func applicationDidFinishLaunching(_ aNotification: Notification) {
-
-	}
-
-	func applicationWillTerminate(_ aNotification: Notification) {
-
-	}
-
-	@objc func applicationShouldTerminateAfterLastWindowClosed(_ theApplication: NSApplication) -> Bool {
-		return true
-	}
+    
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
+        
+    }
+    
+    func applicationWillTerminate(_ aNotification: Notification) {
+        
+    }
+    
+    @objc func applicationShouldTerminateAfterLastWindowClosed(_ theApplication: NSApplication) -> Bool {
+        return true
+    }
 }
